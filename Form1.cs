@@ -14,10 +14,8 @@ namespace Memory_Game
     {
         Random random = new Random();
 
-        List<string> icons = new List<string>()
-        {
-            "!","!","k","k",",",",","v","v","w","w","N","N","z","z","b","b"
-        };
+        List<string> icons = new List<string>();
+        List<string> big = new List<string>();
 
         Label first, second;
         int cnt=0;
@@ -79,8 +77,33 @@ namespace Memory_Game
 
         private void assigning()
         {
+
+            string s;
+            char ch;
             Label label;
             int rndnom;
+
+            for(int i=33; i<127; i++)
+            {
+                s = "";
+                ch = Convert.ToChar(i);
+                s = s+ch.ToString();
+
+                big.Add(s);
+                Console.WriteLine(big[i-33]);
+            }
+
+            Console.WriteLine(big.Count);
+
+            for(int i=0; i<8; i++)
+            {
+                rndnom=random.Next(0,big.Count);
+                icons.Add(big[rndnom]);
+                icons.Add(big[rndnom]);
+
+                big.RemoveAt(rndnom);
+            }
+
 
             for(int i = 0; i < tableLayoutPanel1.Controls.Count; i++)
             {
