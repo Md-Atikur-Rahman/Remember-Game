@@ -1,0 +1,12 @@
+E:\c#\Winform\remember (game)\bin\Debug\Memory Game.exe.config
+E:\c#\Winform\remember (game)\bin\Debug\Memory Game.exe
+E:\c#\Winform\remember (game)\bin\Debug\Memory Game.pdb
+E:\c#\Winform\remember (game)\obj\Debug\Remember.csproj.AssemblyReference.cache
+E:\c#\Winform\remember (game)\obj\Debug\Remember.csproj.SuggestedBindingRedirects.cache
+E:\c#\Winform\remember (game)\obj\Debug\Memory_Game.Form1.resources
+E:\c#\Winform\remember (game)\obj\Debug\Memory_Game.Form2.resources
+E:\c#\Winform\remember (game)\obj\Debug\Memory_Game.Properties.Resources.resources
+E:\c#\Winform\remember (game)\obj\Debug\Remember.csproj.GenerateResource.cache
+E:\c#\Winform\remember (game)\obj\Debug\Remember.csproj.CoreCompileInputs.cache
+E:\c#\Winform\remember (game)\obj\Debug\Memory Game.exe
+E:\c#\Winform\remember (game)\obj\Debug\Memory Game.pdb
